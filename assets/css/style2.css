@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'K2D', sans-serif;
+    object-fit: cover;
+}
+
+.text-red{
+    color: #ff0000 !important;
+}
+
+.bttn{
+    background-color: #be0000;
+    color: white;
+    padding: 6px 40px;
+}
+
+
+.signin-bg{
+    background-image: url("../image/signin-bg.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh !important ;
+}
+.sign-card{
+    border-radius: 20px;
+}
+.form-check-input:checked {
+    background-color: #000;
+    border-color: #0000;
+}
+.inp-num::-webkit-outer-spin-button,
+.inp-num::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}  
+@media screen and (min-width:280px) and (max-width:400px) {
+    .sign-in-logo{
+        width: 50% !important;
+    }
+    
+}

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'K2D', sans-serif;
+}
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.text-red{
+    color: #ff0000 !important;
+}
+/* .nav-link{
+    color: white !important;
+} */
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+    font-size: 17px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #e2dfdf !important;
+    font-size: 17px;
+}  
+.navbar-light .navbar-nav .nav-item {
+    padding: 0px 12px ;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #c70505;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.bttn{
+    background-color: #be0000;
+    color: white;
+}
+.hero-img{
+    background-image: url("../image/home-img1.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.hero-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh !important;
+}
+.hero-img2{
+    background-image: url("../image/home-img2.webp");
+}
+.text-grey{
+    color: #cecece;
+}
+.swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: var(--swiper-pagination-bullet-vertical-gap,6px) 0;
+    display: block;
+    background-color: white;
+}
+.footer-logo{
+    width: 25% !important;
+}
+.signin-bg{
+    background-image: url("../image/signin-bg.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.sign-card{
+    border-radius: 20px;
+}
+.form-check-input:checked {
+    background-color: #000;
+    border-color: #0000;
+}
+
+
+.bg-red{
+    background-color: #ff0000 !important;
+}
+.bg-redd{
+    background-color: #cd0000 !important;
+}
+.pad{
+    padding: 9px 22px;  
+}
+.radius{
+    border-radius: 10px;
+}
+.bg-gray{
+    background-color: #cbcbcb;
+}
+.card-bd{
+    background-color: #f8f4f5 !important;
+    border-radius: 10px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #000;
+    background-color: #c5c4c4;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+.inp-num::-webkit-outer-spin-button,
+.inp-num::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}  
+.dd::before{
+ content: "fsdfsdf";
+ background-color: #000;
+ width: 100%;
+ height: 100%;
+} 
+.slide-img{
+    display: none !important;
+}
+@media screen and (min-width:280px) and (max-width:600px) {
+    .hero-row{
+        justify-content: center;
+    }
+    .footer-logo{
+        width: 50% !important;
+    }
+    .footer-li{
+        font-size: 13px;
+    }
+   
+}
+
+@media screen and (min-width:690px) and (max-width:992px) {
+  .size{
+    font-size: 13px;
+  }
+  /* .table-size{
+    font-size: 11px;
+  } */
+}
+@media screen and (min-width:280px) and (max-width:690px) {
+    .size{
+      font-size: 10px;
+    }
+   
+  }
+
+  /* Custom CSS for responsive scrolling */
+  @media (max-width: 600px) {
+    .swiper-slide.gg {
+        overflow-y: scroll !important;
+    }
+}
+
+@media (max-width: 280px) {
+    .swiper-slide.gg {
+        overflow-y: scroll !important;
+        height: 220vh; /* Adjust the height as needed */
+    }
+}
+@media (max-width: 700px) {
+    .table-responsive {
+        overflow-x: auto; /* Allow horizontal scrolling */
+        max-width: 100%; /* Make sure the container doesn't exceed screen width */
+    } 
+    .video{
+        display: none;
+    }  
+}
+
+@media screen and (min-width:280px) and (max-width:600px) {
+    .video{
+        display: none;
+    }  
+   
+  }
+
+  @media screen and (min-width:280px) and (max-width:700px) {
+    .slide-img{
+        display: block !important;
+    } 
+   
+  }
+
